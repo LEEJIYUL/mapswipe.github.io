@@ -101,7 +101,7 @@ a:hover {
 
 .appstore-link {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .appstore-link.last {
@@ -200,6 +200,13 @@ a:hover {
   font-size: 12px;
   font-weight: 300;
   text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social-link {
@@ -375,7 +382,6 @@ a:hover {
 
 .appstore-container {
   text-align: center;
-  margin-top: 10px;
 }
 
 @media (max-width: 991px) {
@@ -457,9 +463,18 @@ a:hover {
   .hero-subheading {
     line-height: 23px;
   }
+  .footer {
+    padding-top: 0;
+  }
   .appstore-link {
+    display: block;
     width: 120px;
     height: auto;
+    margin: 20px auto;
+  }
+  .appstore-link.last {
+    margin-right: auto;
+    margin-bottom: 0;
   }
   .nav-menu {
     background-color: #000;
