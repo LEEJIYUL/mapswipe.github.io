@@ -1,3 +1,4 @@
+
 body {
   background-color: #000;
   font-family: Roboto, sans-serif;
@@ -24,6 +25,49 @@ a:hover {
   background-repeat: repeat-x;
 }
 
+.hero-container {
+  position: relative;
+  display: block;
+  margin-top: -305px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 230px 15px 80px;
+  background-image: -webkit-linear-gradient(90deg, #000 79%, transparent);
+  background-image: linear-gradient(0deg, #000 79%, transparent);
+  text-align: center;
+}
+
+.hero-container.inner-page {
+  margin-top: 0px;
+  padding-top: 130px;
+  background-image: -webkit-linear-gradient(90deg, #000 50%, transparent);
+  background-image: linear-gradient(0deg, #000 50%, transparent);
+}
+
+.hero-heading {
+  display: block;
+  max-width: 700px;
+  margin: 0px auto 25px;
+  color: #fff;
+  font-size: 52px;
+  line-height: 63px;
+  font-weight: 300;
+}
+   
+.hero-subheading {
+  display: block;
+  max-width: 850px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  opacity: 0.8;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
 .navbar {
   padding-top: 5px;
   padding-right: 15px;
@@ -46,23 +90,29 @@ a:hover {
   color: #9dc850;
 }
 
-.hero-container {
-  position: relative;
-  display: block;
-  margin-top: -305px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 230px 15px 80px;
-  background-image: -webkit-linear-gradient(90deg, #000 79%, transparent);
-  background-image: linear-gradient(0deg, #000 79%, transparent);
-  text-align: center;
+.cookie-policy {
+  color: #fff;
 }
 
-.hero-container.inner-page {
-  margin-top: 0px;
-  padding-top: 130px;
-  background-image: -webkit-linear-gradient(90deg, #000 50%, transparent);
-  background-image: linear-gradient(0deg, #000 50%, transparent);
+.cookie-policy-container {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.cookie-policy table {
+  border: 1px solid white;
+  margin: 25px 0;
+}
+
+.cookie-policy td {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px;
 }
 
 .smartphone {
@@ -71,29 +121,7 @@ a:hover {
   margin-left: auto;
 }
 
-.hero-heading {
-  display: block;
-  max-width: 700px;
-  margin: 0px auto 25px;
-  color: #fff;
-  font-size: 52px;
-  line-height: 63px;
-  font-weight: 300;
-}
 
-.hero-subheading {
-  display: block;
-  max-width: 850px;
-  margin-right: auto;
-  margin-bottom: 40px;
-  margin-left: auto;
-  opacity: 0.8;
-  color: #fff;
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-}
 
 .appstore-logo {
   margin-right: 20px;

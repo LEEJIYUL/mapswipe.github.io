@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Mon Jul 18 2016 00:52:50 GMT+0000 (UTC) -->
+<!-- push test -->
+<html data-wf-site="574807d20d1625555c1ee150" data-wf-page="574807d20d1625555c1ee151">
+<head>
+  <meta charset="utf-8">
+  <title>MapSwipe | Every swipe helps put families on the map</title>
+  <meta name="description" content="Humanitarian organisations can&#39;t help people if they can&#39;t find them. MapSwipe is a mobile app that lets you search satellite imagery to help put the world&#39;s most vulnerable people on the map.">
+  <meta property="og:title" content="MapSwipe | Every swipe helps put families on the map">
+  <meta property="og:description" content="Humanitarian organisations can&#39;t help people if they can&#39;t find them. MapSwipe is a mobile app that lets you search satellite imagery to help put the world&#39;s most vulnerable people on the map.">
+  <meta property="og:image" content="http://mapswipe.org/images/og-img.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/mapswipe.webflow.css">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new
+       Date().getTime(),event:'gtm.js'});var
+       f=d.getElementsByTagName(s)[0],
+       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+   })(window,document,'script','dataLayer','GTM-KVCXJMH');</script>
+  <!-- End Google Tag Manager -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Roboto:300,regular,500,700"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="images/mapswipe_logo_only_256x256.png">
+  <style>
+    @keyframes animatedBackground {
+    	from { background-position: 0% 0%; }
+    	to { background-position: 100% 0%; }
+    }
+    .hero-section {
+    	animation: animatedBackground 250s linear infinite;
+    }
+    .phone-tile {
+    	transition: background-color 1s cubic-bezier(0,1,1,1);
+     }
+    .show-tile {
+      background-color: #24db1a;
+    }
+      .strike {
+        margin-top: 150px;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap; 
+        opacity: .7;
+      }
+      .strike > span {
+        position: relative;
+        display: inline-block;
+        color: #FFF;
+        letter-spacing: 5px;
+        font-weight: 300;
+      }
+      .strike > span:before,
+      .strike > span:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 150%;
+        height: 1px;
+        background: #FFF;
+      }
+      .strike > span:before {
+        right: 100%;
+        margin-right: 25px;
+      }
+      .strike > span:after {
+        left: 100%;
+        margin-left: 25px;
+      }
+      .no-top-margin {
+        margin-top: 0px;
+      }
+     @media screen and (max-width: 320px) {
+        .phone-container {
+            right: 4%;
+        }
+        .strike > span {
+        	font-size: 12px;
+        }
+      }
+      @media screen and (max-width: 440px) {
+        .hero-section {
+    		animation: none;
+    	}
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVCXJMH"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+  <div class="hero-section">
+    <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+      <div class="navbar-container w-container">
+        <a class="mapswipe-logo w-nav-brand" href="index.html"><img class="logo" src="images/mapswipe-logo.svg" width="173">
+        </a>
+        <nav class="nav-menu w-nav-menu" role="navigation"><a class="navlink w-nav-link" href="https://mapswipe.heigit.org/home/" target="_blank">Stats</a><a class="navlink w-nav-link" href="http://www.missingmaps.org/events/" target="_blank">events</a><a class="navlink w-nav-link" href="faq.html">FAQ</a><a class="navlink w-nav-link" href="about.html">ABOUT</a><a class="navlink w-nav-link" href="http://www.missingmaps.org/blog/2016/07/14/mapswipe/" target="_blank">BLOG</a><a class="navlink w-nav-link" href="https://mapswipe-workers.readthedocs.io/en/stable/api.html" onclick="alert('Please allow up to 7 days for us to provide access.')" target="_blank">API</a>
+        </nav>
+        <div class="menu-btn w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-container inner-page">
+        <h1 class="hero-heading">Cookie Policy</h1>
+        <div class="w-embed">
+          <div class="strike no-top-margin">
+            <span>JOHNNY COPIES AND PASTES</span>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="section cookie-policy">
+    <div class="container">
+      <div class="w-row">
+        <div class="w-col w-col-12">
+          <div class="cookie-policy-container">
+            <h2>Cookies</h2>
+            <p>To make this site work properly, we sometimes place small data files called cookies on your device. Most big websites do this too.</p>
+            
+            <h3>What are cookies?</h3>
+            <p>A cookie is a small text file that a website saves on your computer or mobile device when you visit the site. It enables the website to remember your actions and preferences (such as login, language, font size and other display preferences) over a period of time, so you don’t have to keep re-entering them whenever you come back to the site or browse from one page to another.</p>
+            
+            <h3>How do we use cookies?</h3>
+            <p><strong>A. Strictly necessary cookies</strong></p>
+            <p>These are essential for our site to work. We use the following strictly necessary cookies on our site:</p>
+            <table>
+              <tr>
+                <td>CloudFlare</td>
+                <td>__cfduid</td>
+                <td>The cookie is set by the CloudFlare service to identify trusted web traffic. It does not correspond to any user id in the web application, nor does the cookie store any personally identifiable information.</td>
+              </tr>
+            </table>
+            <p><strong>B. Performance cookies</p></strong>
+            <p>These cookies help us understand how you use our website and if users have had any problems. The information they gather is anonymous. We only use the information to improve the way the website works. </p>
+            <table>
+              <tr>
+                <td rowspan="4">Google Analytics</td>
+                <td>__utma</td>
+                <td>Contains a unique ID, the date and time of first visit and total no of visits made.</td>
+              </tr>
+              <tr>
+                  <td>__utmz</td>
+                  <td>Used to determine where you came from to arrive at the website e.g. which search engine.</td>
+              </tr>
+              <tr>
+                  <td>__ga</td>
+                  <td>Used to distinguish users</td>
+              </tr>
+              <tr>
+                  <td>__gaid</td>
+                  <td>Used to distinguish users</td>
+              </tr>
+            </table>
+            <h3>How to control cookies</h3>
+            <p>You can control and/or delete cookies as you wish – for details, see aboutcookies.org. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-container w-row">
+      <div class="footer-column w-col w-col-5">
+        <div class="appstore-container">
+          <a class="appstore-link w-inline-block" href="https://itunes.apple.com/us/app/mapswipe/id1133855392?ls=1&amp;mt=8" target="_blank"><img height="40" src="images/app-store.svg">
+          </a>
+          <a class="appstore-link last w-inline-block" href="https://play.google.com/store/apps/details?id=org.missingmaps.mapswipe" target="_blank"><img height="40" src="images/google-play.svg">
+          </a>
+        </div>
+      </div>
+      <div class="footer-column w-col w-col-2">
+        <a class="social-link w-inline-block" href="https://www.facebook.com/TheMissingMaps" target="_blank"><img src="images/fb.svg" width="25">
+        </a>
+        <a class="social-link w-inline-block" href="https://twitter.com/TheMissingMaps" target="_blank"><img src="images/twitter.svg" width="25">
+        </a>
+      </div>
+      <div class="w-col w-col-5">
+        <div class="footer-column last-footer">Copyright © <span id="year"></span> MapSwipe</div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script>
+    callFunctions();
+
+    var prev = 0;
+    function getRandomNumber(){
+      tile = Math.ceil(Math.random() * 6);
+      $("#tile-" + prev).toggleClass("show-tile");
+      $("#tile-" + tile).toggleClass("show-tile");
+      prev = tile;
+    }
+    var loop = setInterval(getRandomNumber, 2000);
+  </script>
+</body>
+</html>
