@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
 <!-- Last Published: Mon Jul 18 2016 00:52:50 GMT+0000 (UTC) -->
+<!-- push test -->
 <html data-wf-site="574807d20d1625555c1ee150" data-wf-page="574807d20d1625555c1ee151">
 <head>
   <meta charset="utf-8">
@@ -206,18 +207,17 @@
           </div>
         </div>
       </div>
-      <div class="appstore-container">
-        <a class="appstore-link w-inline-block" href="https://itunes.apple.com/us/app/mapswipe/id1133855392?ls=1&amp;mt=8"><img height="50" src="images/app-store.svg">
-        </a>
-        <a class="appstore-link last w-inline-block" href="https://play.google.com/store/apps/details?id=org.missingmaps.mapswipe"><img height="50" src="images/google-play.svg">
-        </a>
-      </div>
     </div>
   </div>
   <div class="footer">
-    <div class="w-row">
+    <div class="footer-container w-row">
       <div class="footer-column w-col w-col-5">
-        <div>MapSwipe. With every swipe and tap, you help put families on the map.</div>
+        <div class="appstore-container">
+          <a class="appstore-link w-inline-block" href="https://itunes.apple.com/us/app/mapswipe/id1133855392?ls=1&amp;mt=8" target="_blank"><img height="40" src="images/app-store.svg">
+          </a>
+          <a class="appstore-link last w-inline-block" href="https://play.google.com/store/apps/details?id=org.missingmaps.mapswipe" target="_blank"><img height="40" src="images/google-play.svg">
+          </a>
+        </div>
       </div>
       <div class="footer-column w-col w-col-2">
         <a class="social-link w-inline-block" href="https://www.facebook.com/TheMissingMaps" target="_blank"><img src="images/fb.svg" width="25">
@@ -226,14 +226,17 @@
         </a>
       </div>
       <div class="w-col w-col-5">
-        <div class="footer-column last-footer">Copyright © 2016 MapSwipe</div>
+        <div class="footer-column last-footer">Copyright © <span id="year"></span> MapSwipe</div>
       </div>
     </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
   <script>
+    callFunctions();
+
     var prev = 0;
     function getRandomNumber(){
       tile = Math.ceil(Math.random() * 6);
